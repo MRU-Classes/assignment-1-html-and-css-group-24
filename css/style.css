@@ -1,0 +1,143 @@
+/* --------------------------------------------------
+   Base Styles & Resets
+-------------------------------------------------- */
+
+body {
+    background-image: linear-gradient(#131133 37%, #4a4a4e 150%, #acabab);
+    background-attachment: fixed;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+/* --------------------------------------------------
+   Typography
+-------------------------------------------------- */
+
+h1, h2, h3 {
+    color: #66CCFF;
+}
+
+p {
+    color: #D1D5DB;
+}
+
+label {
+    color: #D1D5DB;
+}
+
+li {
+    color: #D1D5DB;
+}
+
+table {
+    color: #D1D5DB;
+}
+
+/* --------------------------------------------------
+   Header & Logo
+-------------------------------------------------- */
+
+.header {
+    text-align: center;
+    margin-top: -175px;
+}
+
+.header h1 {
+    font-size: 77px;
+}
+
+.header p {
+    font-size: 24px;
+    margin-top: -25px;
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 10%;
+    height: auto;
+}
+
+#page-title {
+    text-align: center;
+    font-size: 42px;
+    color: #D1D5DB;
+}
+
+/* --------------------------------------------------
+   Navigation Bar
+-------------------------------------------------- */
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: #66CCFF;
+}
+
+#current-page {
+    background-color: #43a4f3;
+}
+
+#current-page:hover {
+    color: #ffffff;
+}
+
+/* --------------------------------------------------
+   Footer
+-------------------------------------------------- */
+
+.footer {
+    bottom: 0;
+    margin-left: 25px;
+    margin-top: 75px;
+}
+
+.footer ul {
+    margin-left: -20px;
+}
+
+.footer li{
+    padding-bottom: 4px;
+    padding-bottom: 4px;
+    list-style-type: none;
+}
+
+.footer a {
+    color: #228dbe;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#contact-me {
+    text-decoration: underline;
+    color: #99E6FF;
+}

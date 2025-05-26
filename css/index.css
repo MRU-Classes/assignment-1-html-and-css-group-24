@@ -1,0 +1,54 @@
+/* --------------------------------------------------
+   Hero Section
+-------------------------------------------------- */
+
+.hero {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero a {
+    color: #6bbcff;
+}
+
+#page-title {
+    color: #D1D5DB;
+    font-size: 54px;
+}
+
+#projects-link {
+    font-size: 20px;
+    margin-top: 55px;
+}
+
+/* --------------------------------------------------
+   Tech Stack
+-------------------------------------------------- */
+
+.tech-stack {
+    margin-top: 55px;
+}
+
+.tech-stack h2 {
+    text-align: center;
+}
+
+.tech-stack table {
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tech-stack td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
