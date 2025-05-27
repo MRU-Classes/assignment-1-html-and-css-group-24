@@ -8,8 +8,8 @@ body {
 }
 
 main {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-top: 50px;
 }
 
@@ -19,22 +19,32 @@ main {
 
 h1, h2, h3 {
     color: #66CCFF;
+    font-family:'Courier New', Courier, monospace;
 }
 
 p {
     color: #D1D5DB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+figcaption {
+    color: #D1D5DB;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 label {
     color: #D1D5DB;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 li {
     color: #D1D5DB;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 table {
     color: #D1D5DB;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* --------------------------------------------------
@@ -116,7 +126,6 @@ table {
 -------------------------------------------------- */
 
 .footer {
-    bottom: 0;
     margin-left: 25px;
     margin-top: 75px;
 }
